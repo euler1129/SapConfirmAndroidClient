@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strDatetime" ></TextView>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/white"></TextView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:focusable="true" 
+        android:focusableInTouchMode="true">
+	    <EditText
+            android:id="@+id/txtISDD"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:inputType="date">
+        </EditText>
+        <EditText
+            android:id="@+id/txtISDZ"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:inputType="time">
+        </EditText>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:focusable="true" 
+        android:focusableInTouchMode="true">
+	    <EditText
+            android:id="@+id/txtIEDD"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:inputType="date">
+        </EditText>
+        <EditText
+            android:id="@+id/txtIEDZ"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:inputType="time">
+        </EditText>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:focusable="true" 
+        android:focusableInTouchMode="true">
+	    <EditText
+            android:id="@+id/txtBUDAT"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:inputType="date">
+        </EditText>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/white"></TextView>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button
+	        android:id="@+id/btnPrevious04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/strPrevious"
+	        android:textStyle="bold" ></Button>
+        <Button
+	        android:id="@+id/btnNext04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/strNext"
+	        android:textStyle="bold" ></Button>
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">SAP报工</string>
+    
+    <string name="strLogin">用户登录</string>
+    <string name="strUserName">SAP帐号：</string>
+    <string name="strPassword">SAP密码：</string>
+    <string name="strLoginText">登录</string>
+    
+    <string name="strQuery">生产订单查询</string>
+    <string name="strBeginDate">起始日期:</string>
+    <string name="strEndDate">截止日期:</string>
+    <string name="strAufnr">生产订单:</string>
+    <string name="strMatnr">产品描述:</string>
+    <string name="strStart">开始报工</string>
+    <string name="strPrevious">上一步</string>
+    <string name="strNext">下一步</string>
+    <string name="strFinish">完成报工</string>
+    <string name="strExit">退出系统</string>
+    
+    <string name="strOrderlist">生产订单选择列表</string>
+    <string name="strAufnr2">生产订单</string>
+    <string name="strMatnr2">产品描述</string>
+    <string name="strQuantity">订单数量</string>
+    <string name="strUnit">单位</string>
+    
+    <string name="strSteplist">生产工序选择列表</string>
+    <string name="strVornr">工序号码</string>
+    <string name="strItxa1">工序描述</string>
+    <string name="strMgvrg">未报工数量</string>
+    <string name="strMeinh">单位</string>
+    
+    <string name="strZuoye">作业:</string>
+    <string name="strVgw01">人工:</string>
+    <string name="strVgw02">动力:</string>
+    <string name="strVgw03">机器:</string>
+    <string name="strVgw04">油墨:</string>
+    <string name="strVgw05">辅料:</string>
+    <string name="strVgw06">其它:</string>
+    <string name="strVge01">MIN</string>
+    <string name="strVge02">MIN</string>
+    <string name="strVge03">MIN</string>
+    <string name="strVge04">M2</string>
+    <string name="strVge05">MIN</string>
+    <string name="strVge06">MIN</string>
+    
+    <string name="strDatetime">日期和时间</string>
+    <string name="strIsdd">开始日期</string>
+    <string name="strIsdz">开始时间</string>
+    <string name="strIedd">结束日期</string>
+    <string name="strIedz">结束时间</string>    
+    
+    <string name="strEquipment">机台选择-完成报工</string>
+    <string name="strZzsb">机台编号</string>
+    <string name="strZzsbms">机台描述</string>
+    
+    <string name="strResult">报工执行结果</string>
+    
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strResult" ></TextView>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/white"></TextView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:focusable="true" 
+        android:focusableInTouchMode="true">
+        <TextView 
+            android:id="@+id/txtContent"
+	        android:textStyle="bold"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" ></TextView>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/white"></TextView>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button
+	        android:id="@+id/btnPrevious06"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/strPrevious"
+	        android:textStyle="bold" ></Button>
+        <Button
+	        android:id="@+id/btnExit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/strExit"
+	        android:textStyle="bold" ></Button>
+    </LinearLayout>
+</LinearLayout>
