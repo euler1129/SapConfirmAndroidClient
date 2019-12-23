@@ -1,4 +1,4 @@
 SapConfirmAndroidClient
 =======================
 
-SAP PP模块生产订单报工操作安卓客户端
+SAP PP module production order reporting operation Android client
